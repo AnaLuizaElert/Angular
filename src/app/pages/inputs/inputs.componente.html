@@ -1,0 +1,30 @@
+<p>Funciona</p>
+<input id="altura" type="text" placeholder="Altura do botão" #altura>
+<input type="text" placeholder="Largura do botão">
+<input type="text" placeholder="cor do botão" [(value)] = 'value'>
+<br>
+<app-botao textoBotao="Me clique" [altura] = "altura"></app-botao>
+<br>
+<app-botao textoBotao="Me clique"></app-botao>
+<br>
+<app-botao textoBotao="Me clique"></app-botao>
+<br>
+<app-botao textoBotao="Me clique"></app-botao>
+<br>
+<app-botao textoBotao="Me clique"></app-botao>
+<br>
+<br>
+<br>
+<br>
+<input placeholder="Nome" type="text" [(ngModel)]="nome">
+<br>
+<input placeholder="Gênero" type="text" [(ngModel)]="genero">
+<br>
+<input placeholder="Idade" type="number"  [(ngModel)]="idade">
+<br>
+<p> {{idade}}</p>
+<p> {{genero}}</p>
+<p> {{nome}}</p>
+
+
+//usar [(ngModel)] para fazer um formulário que aparece o input em real time
